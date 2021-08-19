@@ -1,0 +1,44 @@
+.bg-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.align-items-center {
+    -webkit-box-align: center!important;
+    align-items: center!important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+}
+
+
+.section-top {
+    padding-top: calc(2rem + 5.8125rem);
+}
+
+.btn-white {
+    /*color: #151515 #0056b3;*/
+    color: #707dad;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+[class*="rounded"] {
+    border-radius: 10rem !important;
+}
+
+.pos-nav{
+    z-index: 1 !important;
+}
+
+.space-heading{
+    padding-bottom: 20px; 
+}
